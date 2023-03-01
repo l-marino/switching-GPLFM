@@ -1,6 +1,6 @@
 # Switching GPLFM for discontinuous nonlinear system identification
 
-The switching Gaussian process latent force model (GPLFM) is a physics-enhanced machine learning tool developed for performing nonlinear system identification in dynamical systems characterised by the presence of a discontinuous nonlinearity and/or the presence of different motion regimes. Given a set of noisy experimental observations of the system response and a known input function, the switching GPLFM computes:
+The switching Gaussian process latent force model (GPLFM) is a physics-enhanced machine learning tool developed for performing nonlinear system identification in dynamical systems characterised by discontinuous nonlinearities and/or the presence of different motion regimes. Given a set of noisy experimental observations of the system response and a known input function, the switching GPLFM computes:
 - the posterior distribution of the latent states of the system
 - the posterior distribution of the latent nonlinear force 
 - the sequence of the motion regimes (including the occurrence of discontinuities in the nonlinear force)
