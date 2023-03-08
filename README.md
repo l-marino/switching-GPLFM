@@ -25,7 +25,7 @@ Each of the corresponding folders includes the following files:
 
 ## References
 
-1. Marino, L., Cicirello, A. (2023) A switching Gaussian process latent force model for the identification of mechanical systems with a discontinuous nonlinearity. *arXiv preprint arXiv:??*
+1. Marino, L., Cicirello, A. (2023) A switching Gaussian process latent force model for the identification of mechanical systems with a discontinuous nonlinearity. *arXiv preprint arXiv:2303.03858.
 2. Acerbi, L. (2018). Variational Bayesian Monte Carlo. In: *Advances in Neural Information Processing Systems 31*: 8222-8232.
 3. Acerbi, L. (2020). Variational Bayesian Monte Carlo with Noisy Likelihoods. In: *Advances in Neural Information Processing Systems 33*: 8211-8222.
 4. Barber, D. (2006) Expectation Correction for smoothed inference in switching linear dynamical systems. *Journal of Machine Learning Research 7*: 2515-2540.
