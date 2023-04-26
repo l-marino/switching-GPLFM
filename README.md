@@ -10,6 +10,7 @@ In addition, further steps can be operated within the switching GPLFM framework 
 - estimate the uncertain parameters of the system
 
 Further information about the switching GPLFM implementation and its application can be found in the corresponding journal paper [[1](https://github.com/l-marino/switching-GPLFM/edit/main/README.md#references)].
+
 ## Content and instructions
 
 This repository contains two examples of applications of the switching GPLFM:
@@ -22,7 +23,6 @@ Each of the corresponding folders includes the following files:
 - The function `Switching_GPLFM_ADF_EC.m` is the core of the method. The posterior distribution of the latent states and nonlinear force are computed via assumed density filtering (ADF) and an expectation-correction (EC) smoothing algorithm. This approach is strongly based on the Switching Linear Dynamical Systems (SLDS) theory from David Barber [[4](https://github.com/l-marino/switching-GPLFM/edit/main/README.md#references)], whose codes are included in the folder **slds** and also available [here](https://web4.cs.ucl.ac.uk/staff/D.Barber/software). The state-space representation of the GP latent force is obtained, for different kernel functions, by using Solin and Särkkä's approach [[5](https://github.com/l-marino/switching-GPLFM/edit/main/README.md#references)]. Their codes are included in the folder **kernels** and are also available [here](https://users.aalto.fi/~asolin/documents/pdf/Solin-Sarkka-2014-AISTATS-code.zip).
 - The function `Friction_SDOF.m` can be used for simulating the response of a single degree-of-freedom mass-spring-damper system with a friction contact to a given input forcing. The forcing function and a rate-dependent friction law can be defined by the user, along with initial conditions, simulation time, sampling frequency and additional white noise.
 
-Please cite the below references if you use the switching GPLFM in your work. You can also demonstrate your appreciation by *starring* the [switching-GPLFM](https://github.com/l-marino/switching-GPLFM) repository on GitHub.
 
 ## References
 
@@ -33,4 +33,6 @@ Please cite the below references if you use the switching GPLFM in your work. Yo
 5. Solin, A., Särkkä, S. (2014) Explicit link between periodic covariance functions and state space models. In: *Proceedings of
 the 17th International Conference on Artificial Intelligence and Statistics 33*, 904–912.
 
+
+Please cite the below references if you use the switching GPLFM in your work. You can also demonstrate your appreciation by *starring* the [switching-GPLFM](https://github.com/l-marino/switching-GPLFM) repository on GitHub.
 
